@@ -34,7 +34,7 @@ fecha DATE NOT NULL,
 id_zapatilla INT NOT NULL,
 id_empleado INT NOT NULL,
 id_cliente INT NOT NULL,
-PRIMARY KEY (id_factura)
+PRIMARY KEY (id_factura),
 CONSTRAINT fk_id_zapatilla_tablazapatillas
 	FOREIGN KEY (id_zapatilla) REFERENCES Zapatillas (id_zapatilla),
 CONSTRAINT fk_id_empleado_tablaempleados
@@ -42,5 +42,3 @@ CONSTRAINT fk_id_empleado_tablaempleados
 CONSTRAINT fk_id_cliente_tablaclientes
 	FOREIGN KEY (id_cliente) REFERENCES Clientes (id_cliente)
 );
-
-
