@@ -1,3 +1,6 @@
+ CREATE SCHEMA tienda_zapatillas;
+ USE tienda_zapatillas;
+
 CREATE TABLE Zapatillas (
 id_zapatilla INT NOT NULL AUTO_INCREMENT,
 modelo VARCHAR(45) NOT NULL,
