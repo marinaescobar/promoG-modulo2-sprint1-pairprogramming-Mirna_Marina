@@ -11,6 +11,7 @@ Ejercicios de programación del curso de Data Analytics en Adalab. Estos ejercic
 4. Selenium
 5. SQL Introducción a Bases de Datos y Normalización
 6. SQL Creación de Bases de Datos
+7. SQL Modificación e Inserción de Datos
 
 ## Alumnas
 
